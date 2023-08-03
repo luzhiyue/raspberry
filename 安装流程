@@ -10,3 +10,5 @@
 连接树莓派：
   1.使用基本工具中的局域网IP扫描器 扫描获得树莓派ip
   2.通过ssh工具连接
+
+树莓派防吃灰：https://github.com/zhaoolee/pi
