@@ -1,0 +1,12 @@
+软硬件准备：
+  1.烧录软件：https://www.balena.io/etcher/
+  2.sd卡，64G以上，大厂生产
+  3.下载树莓派系统镜像：https://www.raspberrypi.org/software/operating-systems/
+烧录：
+  1.sd卡连接电脑，烧录。
+  2.修改开机配置文件中的 wpa_supplicant.conf ，修改wifi 名称，和密码
+  3.将开机配置文件夹中的3个文件放入烧录好的boot盘。
+  4.取下sd卡，插入树莓派设备。
+连接树莓派：
+  1.使用基本工具中的局域网IP扫描器 扫描获得树莓派ip
+  2.通过ssh工具连接
